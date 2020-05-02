@@ -1,0 +1,571 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 ;
+  font-family: "Hiragino Sans", 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', "Meiryo", sans-serif;
+  font-feature-settings: "palt";
+  color: #26262A;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+  width:100%;
+  margin:0 auto;
+}
+
+header{
+  height:65px;
+  width:100%;
+}
+
+.sns{
+  background-color:#d8cfa6;
+  width:50px;
+  height:50px;
+  border-radius:1000px;
+  padding:10px 10px;
+}
+
+.icon-twitter{
+  margin-right:10px;
+}
+
+.header-right{
+  float:right;
+  position: fixed;
+  top:40px;
+  right:80px;
+  z-index: 10;
+}
+
+
+.header-left{
+  float:left;
+  z-index: 1;
+  position: absolute;
+  top:40px;
+  left: 80px;
+}
+
+.kyashcard-img{
+  width:100%;
+  margin-top:-100px;
+}
+
+.clear{
+  clear: both;
+}
+
+
+.copy{
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1;
+  margin-top: -22vw;
+  position: absolute;
+  right: 100px;
+
+}
+
+.heading1{
+  font-size:40px;
+  line-height: 0.5;
+  font-weight: 900;
+  letter-spacing: -4px;
+  padding-bottom: -5px;
+}
+
+.heading2 h2{
+  font-weight: normal;
+}
+
+.heading2 p{
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.btn-inquiry{
+  position: relative;
+  color:white;
+  background-color:#26262A;
+  max-width: 230px;
+  font-size:14px;
+  padding:18px 55px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  transition: all 1s;
+}
+
+.btn-inquiry:hover{
+  position: relative;
+  top:-4px;
+}
+
+.intro p{
+  text-align: center;
+}
+
+.intro{
+  margin-top:300px;
+  margin-bottom: 100px;
+}
+
+.text-l{
+  font-weight:700;
+  font-size: 60px;
+  line-height: 1.3;
+}
+
+.text1{
+  margin-bottom: -75px;
+}
+
+.text2{
+  color:#D8CFA6;
+}
+
+.text3{
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.imgarea{
+  max-width: 50%;
+  margin-bottom: 100px;
+  padding: 5% 5%;
+}
+
+.videoarea{
+  max-width: 50%;
+  margin-bottom: 100px;
+  margin:5% 5%;
+}
+
+.section-contents img{
+  width:100%;
+}
+
+.textarea{
+  max-width: 36%;
+  margin-right:7%;
+  margin-left: 7%;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.textarea h2{
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.textarea h3{
+  margin-bottom: 25px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 24px;
+}
+
+
+.benefits{
+  padding-left:0px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.benefit-note{
+  color:#b9b9cc;
+  font-size: 12px;
+  line-height: 1.5;
+  white-space: normal;
+}
+
+.link-2{
+  color:#d8cfa6;
+}
+
+.section-content{
+  align-items: center;
+  max-width: 1680px;
+  margin-right: auto;
+  margin-left: auto;
+  clear:both;
+}
+
+.designing-imgarea{
+  float:left;
+}
+
+.designing-textarea{
+  float:right;
+}
+
+.paying-imgarea{
+  float: right;
+}
+
+.paying-textarea{
+  float: left;
+}
+
+.anywhere-imgarea{
+  float:left;
+}
+
+.anywhere-textarea{
+  float:right;
+}
+
+.realtime-imgarea{
+  float:right;
+}
+
+.realtime-textarea{
+  float:left;
+}
+
+.protect-videoarea{
+  float:left;
+  overflow: hidden;
+  z-index: 1;
+  width: 250px;
+  height: 550px;
+  border-radius: 28px;
+  box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.1);
+  position: relative;
+  left:25%;
+}
+
+.protect-textarea{
+  float: right;
+}
+
+video{
+  width: 250px;
+  height: 550px;
+  object-fit: cover;
+}
+
+.protection-list{
+  line-height: 2;
+  font-size:12px;
+}
+
+.spec-wrapper{
+  margin-top:50px;
+  margin:0 auto;
+  text-align: center;
+  max-width: 730px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.lineup-text{
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.what-kyashvisa{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #d8cfa6;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+.contents-list-kyashvisa{
+  display: block;
+  display: none;
+  z-index: 9;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  font-size:12px;
+  text-align: left;
+  padding:20px;
+  width:400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.list-top{
+  margin-bottom: 7px;
+  font-weight: 700;
+}
+
+
+
+.back-icon{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top:5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.kyashcard-information{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  max-width: 450px;
+  padding:10px;
+  border-color: #e4e4e4;
+  border-radius: 3px;
+  font-size:12px;
+  line-height: 1.7;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+.kayshcard-information-text1{
+  margin-bottom: 5px;
+}
+
+.kyashcard-information-update{
+  background-color: #ececec;
+  margin-bottom: 10px;
+  padding:10px;
+  text-align: left;
+}
+
+.spectable-frame{
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 6px 2px rgba(32, 52, 58, 0.05);
+  position: relative;
+  font-size: 12px;
+}
+
+.spectable-headcell{
+  width: 100%;
+  height: 120px;
+  padding: 6px 10px;
+}
+
+.spectable-cell{
+    min-height: 70px;
+    padding:10px;
+    border-bottom: 1px solid #f0f0f0;
+    width: 100%;
+    text-align: center;
+}
+
+.spectable-cell-index{
+  min-height: 70px;
+  padding:10px;
+  border-bottom: 1px solid #f0f0f0;
+  width: 100%;
+  text-align: left;
+}
+
+.spectable-Kyashcard{
+  border-top: 2px solid #26262a;
+  background-color: #fdfcf8;
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.04);
+}
+
+.spectable-wrapper{
+  width: 25%;
+}
+
+.spectable-attention{
+  text-align:left;
+  color: #9696a6;
+  margin-bottom: 5px;
+  font-size: 12px;
+  margin-bottom: 120px;
+}
+
+.spectable-attention a{
+  color: #bfb793;
+  text-decoration: underline;
+}
+
+.kyashcard-inquiry{
+  background-color: #f2efe3;
+}
+
+.inquiry-wrapper{
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.cardimg{
+    text-align: center;
+    position: relative;
+    top:-30px;
+
+}
+
+.dark-blue-card{
+  position: absolute;
+  left:0;
+  right:0;
+  z-index: 1;
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pink-card{
+  width: 130px;
+}
+
+.silver-card{
+  width: 130px;
+}
+
+.send-information{
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+}
+
+.email-box{
+  text-align: center;
+  width: 100%;
+}
+
+.input-email{
+  height: 65px;
+  width: 65%;
+  margin-right: 20px;
+  margin-left: auto;
+  padding:8px 12px;
+  border-radius: 6px;
+  border:none;
+  cursor: text;
+  margin-bottom: 20px;
+}
+
+.submit-btn{
+  position: relative;
+  color:white;
+  background-color:#26262A;
+  max-width: 230px;
+  font-size:14px;
+  padding:18px 55px;
+  border-radius: 30px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.submit-btn:hover{
+  position: relative;
+  top:-4px;
+}
+
+.privacy-policy-attention{
+  text-align: center;
+  font-size: 12px;
+  color: #6f6f7a;
+  margin-bottom: 20px;
+}
+
+.privacy-policy-attention a{
+  color: #6f6f7a;
+  text-decoration: underline;
+}
+
+.kyashcard-inquiry-attention{
+  display: flex;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  color: #26262a;
+}
+
+.about-kyashcard-attention li{
+  width: 100%;
+  list-style-type: none;
+}
+
+.attention3{
+  margin-right: 40px;
+}
+
+.attention-index{
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.attention-text{
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.about-company{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.company-wrapper{
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.company-btn{
+  position: relative;
+  color:white;
+  background-color:#d8cfa6;
+  width: 200px;
+  font-size:14px;
+  padding:18px 55px;
+  border-radius: 30px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.company-btn:hover{
+  position: relative;
+  top:-4px;
+}
+
+.company-btn a{
+  color:white;
+  text-align: center;
+}
+
+.footer-text{
+  display:flex;
+  justify-content: center;
+}
+
+.text-block-1{
+  height: 1em;
+  margin-right: 5px;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 300;
+
+}
+
+.text-block-3{
+  height: 1em;
+  margin-left: 5px;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 300;
+}
